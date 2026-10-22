@@ -3,7 +3,8 @@
 Simulated real time SOC investigations using SPLUNK triaging a live alert queue that revealed a full attack chain.
 ### Attack Chain
 Initial access via phishing email with malicious Zip attachment, powershell script dropped to disk as payload, DNS based command and control beakoning via nslookup to a suspicious domain.
-### Exfiltration Data prepared and copied via robocopy.exe to a mapped network drive which was later disconnected to cover tracks.
+### Exfiltration Data
+Prepared and copied via robocopy.exe to a mapped network drive which was later disconnected to cover tracks.
 ### Distinguished True positives from false positives
 By recognising legitimate windows system behaviour. Like 'Trustedinstaller.exe' and schedule tasks like KEYROAMING and NGC KEY PREGEN vs geniunely malicious parent child processes. 
 ### Remediation Actions
